@@ -12,6 +12,9 @@
 		84DA12111CFC6FA2003CC749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA120F1CFC6FA2003CC749 /* Main.storyboard */; };
 		84DA12131CFC6FA2003CC749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DA12121CFC6FA2003CC749 /* Assets.xcassets */; };
 		84DA12161CFC6FA2003CC749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA12141CFC6FA2003CC749 /* LaunchScreen.storyboard */; };
+		84DA121F1CFC6FC1003CC749 /* LightOff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84DA121D1CFC6FC1003CC749 /* LightOff.jpg */; };
+		84DA12201CFC6FC1003CC749 /* LightOn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84DA121E1CFC6FC1003CC749 /* LightOn.jpg */; };
+		84DA12241CFC7397003CC749 /* Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DA12231CFC7397003CC749 /* Light.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		84DA12121CFC6FA2003CC749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DA12151CFC6FA2003CC749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84DA12171CFC6FA2003CC749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DA121D1CFC6FC1003CC749 /* LightOff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LightOff.jpg; sourceTree = "<group>"; };
+		84DA121E1CFC6FC1003CC749 /* LightOn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LightOn.jpg; sourceTree = "<group>"; };
+		84DA12231CFC7397003CC749 /* Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Light.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		84DA120A1CFC6FA2003CC749 /* LightOn */ = {
 			isa = PBXGroup;
 			children = (
+				84DA12231CFC7397003CC749 /* Light.png */,
+				84DA121D1CFC6FC1003CC749 /* LightOff.jpg */,
+				84DA121E1CFC6FC1003CC749 /* LightOn.jpg */,
 				84DA120B1CFC6FA2003CC749 /* AppDelegate.swift */,
 				84DA120D1CFC6FA2003CC749 /* ViewController.swift */,
 				84DA120F1CFC6FA2003CC749 /* Main.storyboard */,
@@ -122,8 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DA12241CFC7397003CC749 /* Light.png in Resources */,
 				84DA12161CFC6FA2003CC749 /* LaunchScreen.storyboard in Resources */,
 				84DA12131CFC6FA2003CC749 /* Assets.xcassets in Resources */,
+				84DA121F1CFC6FC1003CC749 /* LightOff.jpg in Resources */,
+				84DA12201CFC6FC1003CC749 /* LightOn.jpg in Resources */,
 				84DA12111CFC6FA2003CC749 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,17 +9,33 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var check :Int!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        check = 0
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    @IBOutlet weak var LightOn: UIButton!
+    
+    @IBAction func onTap(sender: AnyObject) {
+        if check == 0 {
+            LightOn.setImage(UIImage(named: "LightOff.jpg"), forState: UIControlState.Normal)
+            check = 1
+            
+        } else if check == 1 {
+        
+            LightOn.setImage(UIImage(named: "LightOn.jpg"), forState: UIControlState.Normal)
+            check = 2
+        
+        } else {
+            
+            LightOn.setImage(UIImage(named: "Light.png"), forState: UIControlState.Normal)
+            check = 0
 
+        }
+    
+    }
 
 }
 
